@@ -26,3 +26,4 @@ python tickets.py jinan beijing 2016-10-15 1>out.txt 2>/dev/null
 就可以在out.txt里查看列车信息了~  
 
 The information will be saved as out.txt in the same location of your python script :)
+

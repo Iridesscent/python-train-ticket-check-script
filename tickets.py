@@ -86,7 +86,7 @@ def cli():
     date = date.split('-')
     date = '%04d-%02d-%02d' % (int(date[0]), int(date[1]), int(date[2]))
     print date
-    url = 'https://kyfw.12306.cn/otn/leftTicket/queryT?leftTicketDTO.train_date={}&leftTicketDTO.from_station={}&leftTicketDTO.to_station={}&purpose_codes=ADULT'.format(
+    url = 'https://kyfw.12306.cn/otn/leftTicket/queryX?leftTicketDTO.train_date={}&leftTicketDTO.from_station={}&leftTicketDTO.to_station={}&purpose_codes=ADULT'.format(
         date, from_station, to_station
     )
     r = requests.get(url,verify=False)
