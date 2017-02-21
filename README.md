@@ -19,9 +19,10 @@ python tickets.py 出发城市拼音 到达城市拼音 时间 1>out.txt 2>/dev/
 ```
 #示例
 ```
-python tickets.py jinan beijing 2016-10-15 1>out.txt 2>/dev/null
+python tickets.py jinan beijing 2016-10-15 2>/dev/null
 ```
 
-就可以在out.txt里查看列车信息了~  
+就可以看到列车信息了~  
 
-
+#DEMO
+![](http://iridescent.com.cn/Reference/demo1.png)
