@@ -25,4 +25,4 @@ python tickets.py jinan beijing 2016-10-15 2>/dev/null
 就可以看到列车信息了~  
 
 #DEMO
-![](http://iridescent.com.cn/Reference/demo1.png)
+<img href="http://iridescent.com.cn/Reference/demo1.png"></img>
