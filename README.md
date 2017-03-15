@@ -2,6 +2,7 @@
 python实现火车票查询  
 
 <h1>python依赖库</h1>
+
 ```
 request  
 prettytable  
@@ -14,10 +15,12 @@ $sudo pip3 install requests prettytable docopt pprint
 ```
 
 <h1>使用</h1>
+
 ```
 python tickets.py 出发城市拼音 到达城市拼音 时间 1>out.txt 2>/dev/null
 ```
 <h1>示例</h1>
+
 ```
 python tickets.py jinan beijing 2016-10-15 2>/dev/null
 ```
